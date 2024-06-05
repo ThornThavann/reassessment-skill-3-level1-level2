@@ -1,31 +1,30 @@
 
-
-body{
-    background-color: pink;
-}
-.header{
+.head{
     padding: 20px;
     background-color: black;
     color: white;
-   justify-content: center;
-    display: flex;
-    font-size: 30px;
-    
-}
-.container{
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    padding: 0;
+    text-align: center;
 }
 
-.grid{
-height: 100px;
-display: flex;
-justify-content: space-around;
-gap: 20px;
+.container{
+    width: 95%;
+    height: auto;
+    position: relative;
+    left: 40px;
+    top: 15px;
+}
+
+
+
+.col-6 {
+    float: left;
+    width:30%;
+    background: grey;
 }
 img{
-    width: 200px;
-    height: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.row{
+    justify-content: center;
 }
